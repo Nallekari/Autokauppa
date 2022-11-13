@@ -91,7 +91,8 @@ export default function AutoLista() {
         { field: "fuel", sortable: true, filter: true, floatingFilter: true },
         { field: "year", sortable: true, filter: true, floatingFilter: true },
         { field: "price", sortable: true, filter: true, floatingFilter: true },
-        { cellRenderer: Editcar, updateCar: {updateCar}},
+        { cellRenderer: Editcar, updateCar: { updateCar } },
+        
        
     ]
 

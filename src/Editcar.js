@@ -42,7 +42,7 @@ export default function Editcar(props) {
     <div>
         <Button variant="contained" color="success" size='small' onClick={handleClickOpen}>Edit</Button>
         <Dialog open={open} onClose={handleClose}>
-            <DialogTitle id="form-dialog-title">New Car</DialogTitle>
+            <DialogTitle id="form-dialog-title">Edit Car</DialogTitle>
             <DialogContent>
             <TextField autoFocus margin="dense" name="brand" value={car.brand} onChange={e => handleInputChange(e)} label="Brand" fullWidth/>
             <TextField margin="dense" name="model" value={car.model} onChange={e => handleInputChange(e)} label="Model" fullWidth/>
